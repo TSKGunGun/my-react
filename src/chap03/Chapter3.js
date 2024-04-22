@@ -1,6 +1,7 @@
 import React from 'react';
 import MyHello from './MyHello';
 import EventBasic from './EventBasic';
+import StateBasic from './StateBasic';
 
 export default function Chapter3Component() {
   return (
@@ -18,6 +19,10 @@ export default function Chapter3Component() {
         <EventBasic type="time" />
         <h3>Default</h3>
         <EventBasic />
+      </div>
+      <div>
+        <h2>3-1-4</h2>
+        <StateBasic init={0} />
       </div>
     </React.Fragment>
   )
