@@ -7,6 +7,8 @@ import ForNest from './ForNest';
 import SelectStyle from './SelectStyle';
 import StyledPanel from './StyledPanel';
 import TitledPanel from './TitledPanel';
+import ListTemplate from './ListTemplate';
+import StateParent from './StateParent';
 
 export default function Chapter3Component() {
   return (
@@ -51,6 +53,21 @@ export default function Chapter3Component() {
           <p key="title">メンバー募集中</p>
           <p key="body">ようこそ、1515会へ!!</p>
         </TitledPanel>
+      </div>
+      <div className='chapter'>
+        <ListTemplate src={books} render={ elem => (
+            <>
+              <dt>
+                <a href={`https://wings.msn.to/books/${elem.isbn}/${elem.isbn}.jpg`} >
+                  {elem.title} ({elem.price}円)
+                </a>
+              </dt>
+              <dd>{elem.summary}</dd>  
+            </>
+          )}/>
+      </div>
+      <div className='chapter'>
+        <StateParent />
       </div>
     </>
   )
