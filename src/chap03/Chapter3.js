@@ -5,10 +5,12 @@ import StateBasic from './StateBasic';
 import books from './books';
 import ForNest from './ForNest';
 import SelectStyle from './SelectStyle';
+import StyledPanel from './StyledPanel';
+import TitledPanel from './TitledPanel';
 
 export default function Chapter3Component() {
   return (
-    <React.Fragment>
+    <>
       <h1>Chapter 3</h1>
       <div className='chapter'>
         <h2>3-1-2</h2>
@@ -36,6 +38,20 @@ export default function Chapter3Component() {
         <SelectStyle mode='light' />
         <SelectStyle mode='dark' />
       </div>
-    </React.Fragment>
+      <div className='chapter'>
+        <h2>3-3-1</h2>
+        <StyledPanel>
+          <p>メンバー募集中!</p>
+          <p>ようこそ、1515会へ!!</p>
+        </StyledPanel>
+      </div>
+      <div className='chapter'>
+        <h2>3-3-4</h2>
+        <TitledPanel>
+          <p key="title">メンバー募集中</p>
+          <p key="body">ようこそ、1515会へ!!</p>
+        </TitledPanel>
+      </div>
+    </>
   )
 }
