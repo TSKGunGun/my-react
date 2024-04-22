@@ -7,11 +7,11 @@ export default function Chapter3Component() {
   return (
     <React.Fragment>
       <h1>Chapter 3</h1>
-      <div>
+      <div className='chapter'>
         <h2>3-1-2</h2>
         <MyHello myName="鈴木"/>
       </div>
-      <div>
+      <div className='chapter'>
         <h2>3-1-3</h2>
         <h3>Type=Date</h3>
         <EventBasic type="date" />
@@ -20,7 +20,7 @@ export default function Chapter3Component() {
         <h3>Default</h3>
         <EventBasic />
       </div>
-      <div>
+      <div className='chapter'>
         <h2>3-1-4</h2>
         <StateBasic init={0} />
       </div>

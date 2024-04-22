@@ -11,7 +11,9 @@ setInterval(() => {
   root.render(
     <React.StrictMode>
       {/* Chapter03 */}
-      <Chapter3Component />
+      <div className="p-5 border-solid rounded bg-gray-100">
+        <Chapter3Component />
+      </div>
     </React.StrictMode>
   );
 }, 1000)
