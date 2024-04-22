@@ -9,6 +9,9 @@ import StyledPanel from './StyledPanel';
 import TitledPanel from './TitledPanel';
 import ListTemplate from './ListTemplate';
 import StateParent from './StateParent';
+import EventMouse from './EventMouse';
+import EventCompare from './EventCompre';
+import EventError from './EventError';
 
 export default function Chapter3Component() {
   return (
@@ -68,6 +71,22 @@ export default function Chapter3Component() {
       </div>
       <div className='chapter'>
         <StateParent />
+      </div>
+      <div className='chapter'>
+        <h2>3-4-1</h2>
+          <EventMouse 
+            alt="ロゴ画像"
+            beforeSrc="https://www.web-deli.com/image/linkbanner_l.gif"
+            afterSrc="https://www.web-deli.com/image/home_chara.gif"
+          />
+      </div>
+      <div className='chapter'>
+          <h2>3-4-4</h2>
+          <EventCompare />
+      </div>
+      <div className='chapter'>
+          <h2>3-4-7</h2>
+          <EventError src="./image/wings.jpg" alt="ロゴ画像" />
       </div>
     </>
   )
