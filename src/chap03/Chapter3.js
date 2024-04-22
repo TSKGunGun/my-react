@@ -2,6 +2,8 @@ import React from 'react';
 import MyHello from './MyHello';
 import EventBasic from './EventBasic';
 import StateBasic from './StateBasic';
+import books from './books';
+import ForNest from './ForNest';
 
 export default function Chapter3Component() {
   return (
@@ -23,6 +25,10 @@ export default function Chapter3Component() {
       <div className='chapter'>
         <h2>3-1-4</h2>
         <StateBasic init={0} />
+      </div>
+      <div className='chapter'>
+        <h2>3-2-1</h2>
+        <ForNest src={books} />
       </div>
     </React.Fragment>
   )
