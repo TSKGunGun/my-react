@@ -4,6 +4,7 @@ import EventBasic from './EventBasic';
 import StateBasic from './StateBasic';
 import books from './books';
 import ForNest from './ForNest';
+import SelectStyle from './SelectStyle';
 
 export default function Chapter3Component() {
   return (
@@ -31,8 +32,9 @@ export default function Chapter3Component() {
         <ForNest src={books} />
       </div>
       <div className='chapter'>
-        <h2>3-2-2</h2>
-        
+        <h2>3-2-8</h2>
+        <SelectStyle mode='light' />
+        <SelectStyle mode='dark' />
       </div>
     </React.Fragment>
   )
