@@ -9,7 +9,8 @@ const books = [
     isbn: '978-4-297-13288-0',
     title: '改訂3版JavaScript本格入門 ',
     price: 3520,
-    summary: 'JavaScriptの基礎から新記法まできちんと学ぶ'
+    summary: 'JavaScriptの基礎から新記法まできちんと学ぶ',
+    download: "https://www.shoeisha.co.jp/book/download/978-4-297-13288-0/"
   },
   {
     isbn: '978-4-8156-1336-5',

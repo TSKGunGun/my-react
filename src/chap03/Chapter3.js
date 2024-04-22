@@ -30,6 +30,10 @@ export default function Chapter3Component() {
         <h2>3-2-1</h2>
         <ForNest src={books} />
       </div>
+      <div className='chapter'>
+        <h2>3-2-2</h2>
+        
+      </div>
     </React.Fragment>
   )
 }
