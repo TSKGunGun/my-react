@@ -12,6 +12,13 @@ import StateParent from './StateParent';
 import EventMouse from './EventMouse';
 import EventCompare from './EventCompre';
 import EventError from './EventError';
+import EventObj from './EventObj';
+import EventPoint from './EventPoint';
+import EventKey from './EventKey';
+import EventArgs from './EventArgs';
+import EventPropagation from './EventPropagation';
+import EventOnce from './EventOnce';
+import EventPassive from './EventPassive';
 
 export default function Chapter3Component() {
   return (
@@ -87,6 +94,34 @@ export default function Chapter3Component() {
       <div className='chapter'>
           <h2>3-4-7</h2>
           <EventError src="./image/wings.jpg" alt="ロゴ画像" />
+      </div>
+      <div className='chapter'>
+        <h2>3-4-9</h2>
+          <EventObj />
+      </div>
+      <div className='chapter'>
+        <h2>3-4-11</h2>
+          <EventPoint />
+      </div>
+      <div className='chapter'>
+        <h2>3-4-14</h2>
+          <EventKey />
+      </div>
+      <div className='chapter'>
+        <h2>3-4-16</h2>
+          <EventArgs />
+      </div>
+      <div className='chapter'>
+        <h2>3-4-20</h2>
+          <EventPropagation />
+      </div>
+      <div className='chapter'>
+        <h2>3-4-23</h2>
+          <EventOnce />
+      </div>
+      <div className='chapter'>
+        <h2>3-4-26</h2>
+          <EventPassive />
       </div>
     </>
   )
