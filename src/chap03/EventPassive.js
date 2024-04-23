@@ -9,13 +9,12 @@ export default function EventPassive() {
     const div = divRef.current;
     div.addEventListener('wheel', handleWheel, { passive: false });
     return (() => {
-      div.remoteEventListener('wheel', handleWheel);
+      div.removeEventListener('wheel', handleWheel);
     })
   })
 
   return (
-    <div className='box'
-      onWheel={handleWheel}>
+    <div ref={divRef} className='box'>
       例えばwheelイベントをハンドラーで...
     </div>
   )
