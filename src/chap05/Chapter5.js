@@ -6,6 +6,9 @@ import ProfilerBasic from "./ProfilerBasic"
 import StyledBasic from "./StyledBasic"
 import StyledCss from "./StyledCss"
 import StyledDynamic from "./StyledDynamic"
+import StyledComp from "./StyledComp"
+import { MyButton, MyStyledButton } from "./StyledComp2"
+import StyledCommon from "./StyledCommon"
 
 export default function Chapter5Component() {
   return (
@@ -45,6 +48,19 @@ export default function Chapter5Component() {
       <div className="chapter">
         <h2>5-2-9</h2>
         <StyledDynamic theme={{color: 'darkgray', radius: true}} />
+      </div>
+      <div className="chapter">
+        <h2>5-2-11</h2>
+        <StyledComp />
+      </div>
+      <div className="chapter">
+        <h2>5-2-16</h2>
+        <MyButton>MyButton</MyButton>
+        <MyStyledButton>MyStyledButton</MyStyledButton>
+      </div>
+      <div className="chapter">
+        <h2>5-2-19</h2>
+        <StyledCommon />       
       </div>
     </>
   )
