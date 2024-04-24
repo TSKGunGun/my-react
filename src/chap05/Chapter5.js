@@ -3,6 +3,9 @@ import LazyMulti from "./LazyMulti"
 import SuspenseSimple from "./SupenseSimple"
 import SuspenseResult from "./SuspenseResult"
 import ProfilerBasic from "./ProfilerBasic"
+import StyledBasic from "./StyledBasic"
+import StyledCss from "./StyledCss"
+import StyledDynamic from "./StyledDynamic"
 
 export default function Chapter5Component() {
   return (
@@ -30,6 +33,19 @@ export default function Chapter5Component() {
         <ProfilerBasic />
       </div>
       */}
+      <div className="chapter">
+        <h2>5-2-5</h2>
+        <StyledBasic />
+      </div>
+
+      <div className="chapter">
+        <h2>5-2-7</h2>
+        <StyledCss />
+      </div>
+      <div className="chapter">
+        <h2>5-2-9</h2>
+        <StyledDynamic theme={{color: 'darkgray', radius: true}} />
+      </div>
     </>
   )
 }
