@@ -24,10 +24,12 @@ export default function Chapter5Component() {
         <h2>5-1-11</h2>
         <SuspenseResult />
       </div>
+      {/*
       <div className="chapter">
         <h2>5-1-15</h2>
         <ProfilerBasic />
       </div>
+      */}
     </>
   )
 }
