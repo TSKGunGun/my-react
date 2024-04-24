@@ -2,6 +2,7 @@ import LazyBasic from "./LazyBasic"
 import LazyMulti from "./LazyMulti"
 import SuspenseSimple from "./SupenseSimple"
 import SuspenseResult from "./SuspenseResult"
+import ProfilerBasic from "./ProfilerBasic"
 
 export default function Chapter5Component() {
   return (
@@ -22,6 +23,10 @@ export default function Chapter5Component() {
       <div className="chapter">
         <h2>5-1-11</h2>
         <SuspenseResult />
+      </div>
+      <div className="chapter">
+        <h2>5-1-15</h2>
+        <ProfilerBasic />
       </div>
     </>
   )
