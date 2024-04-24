@@ -3,6 +3,7 @@ import StateForm from './StateForm';
 import StateFormUC from './StateFormUC';
 import FormTextarea from './FormTextarea';
 import FormSelect from './FormSelect';
+import FormList from './FormList';
 
 export default function Chapter4Component() {
   return (
@@ -23,6 +24,10 @@ export default function Chapter4Component() {
       <div className='chapter'>
         <h2>4-1-8</h2>
         <FormSelect />
+      </div>
+      <div className='chapter'>
+        <h2>4-1-10</h2>
+        <FormList />
       </div>
     </>
   )
