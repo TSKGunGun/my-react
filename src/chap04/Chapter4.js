@@ -11,6 +11,7 @@ import FormFile from './FormFile';
 import StateNest from './StateNest';
 import StateNestImmer from './StateNestImmer';
 import StateNestImmer2 from './StateNestImmer2';
+import StateTodo from './StateTodo';
 
 export default function Chapter4Component() {
   return (
@@ -63,6 +64,10 @@ export default function Chapter4Component() {
       <div className='chapter'>
         <h2>4-2-6</h2>
         <StateNestImmer2 />
+      </div>
+      <div className='chapter'>
+        <h2>4-2-8</h2>
+        <StateTodo />
       </div>
     </>
   )
