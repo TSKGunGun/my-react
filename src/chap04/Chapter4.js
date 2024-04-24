@@ -5,6 +5,8 @@ import FormTextarea from './FormTextarea';
 import FormSelect from './FormSelect';
 import FormList from './FormList';
 import FormRadio from './FormRadio';
+import FormCheck from './FormCheck';
+import FormCheckMulti from './FormCheckMulti';
 
 export default function Chapter4Component() {
   return (
@@ -33,6 +35,14 @@ export default function Chapter4Component() {
       <div className='chapter'>
         <h2>4-1-12</h2>
         <FormRadio />
+      </div>
+      <div className='chapter'>
+        <h2>4-1-14</h2>
+        <FormCheck />
+      </div>
+      <div className='chapter'>
+        <h2>4-1-16</h2>
+        <FormCheckMulti />
       </div>
     </>
   )
