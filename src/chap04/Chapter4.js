@@ -7,6 +7,7 @@ import FormList from './FormList';
 import FormRadio from './FormRadio';
 import FormCheck from './FormCheck';
 import FormCheckMulti from './FormCheckMulti';
+import FormFile from './FormFile';
 
 export default function Chapter4Component() {
   return (
@@ -43,6 +44,10 @@ export default function Chapter4Component() {
       <div className='chapter'>
         <h2>4-1-16</h2>
         <FormCheckMulti />
+      </div>
+      <div className='chapter'>
+        <h2>4-1-18</h2>
+        <FormFile />
       </div>
     </>
   )
