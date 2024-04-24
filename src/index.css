@@ -38,3 +38,11 @@ button:disabled {
 input {
   @apply border border-gray-400 p-2 m-2 rounded;
 }
+
+textarea {
+  @apply border border-gray-400 p-2 m-2 rounded;
+}
+
+select {
+  @apply border border-gray-400 p-2 m-2 rounded;
+}
