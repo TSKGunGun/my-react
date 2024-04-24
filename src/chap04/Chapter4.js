@@ -8,6 +8,9 @@ import FormRadio from './FormRadio';
 import FormCheck from './FormCheck';
 import FormCheckMulti from './FormCheckMulti';
 import FormFile from './FormFile';
+import StateNest from './StateNest';
+import StateNestImmer from './StateNestImmer';
+import StateNestImmer2 from './StateNestImmer2';
 
 export default function Chapter4Component() {
   return (
@@ -48,6 +51,18 @@ export default function Chapter4Component() {
       <div className='chapter'>
         <h2>4-1-18</h2>
         <FormFile />
+      </div>
+      <div className='chapter'>
+        <h2>4-2-2</h2>
+        <StateNest />
+      </div>
+      <div className='chapter'>
+        <h2>4-2-4</h2>
+        <StateNestImmer />
+      </div>
+      <div className='chapter'>
+        <h2>4-2-6</h2>
+        <StateNestImmer2 />
       </div>
     </>
   )
