@@ -10,6 +10,9 @@ import StyledComp from "./StyledComp"
 import { MyButton, MyStyledButton } from "./StyledComp2"
 import StyledCommon from "./StyledCommon"
 import PortalBasic from "./PotalBasic"
+import ErrorRoot from "./ErrorRoot"
+import ErrorRetryRoot from "./ErrorRetryRoot"
+import ErrorEventRoot from "./ErrorEventRoot"
 
 export default function Chapter5Component() {
   return (
@@ -36,7 +39,7 @@ export default function Chapter5Component() {
         <h2>5-1-15</h2>
         <ProfilerBasic />
       </div>
-      */}
+       */}
       <div className="chapter">
         <h2>5-2-5</h2>
         <StyledBasic />
@@ -67,6 +70,18 @@ export default function Chapter5Component() {
         <h2>5-3-3</h2>
         <div id="dialog"></div>
         <PortalBasic />
+      </div>
+      <div className="chapter">
+        <h2>5-3-6</h2>
+        <ErrorRoot />
+      </div>
+      <div className="chapter">
+        <h2>5-3-9</h2>
+        <ErrorRetryRoot />
+      </div>
+      <div className="chapter">
+        <h2>5-3-14</h2>
+        <ErrorEventRoot />
       </div>
     </>
   )

@@ -8,27 +8,25 @@ import Chapter5Component from './chap05/Chapter5';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-setInterval(() => {
-  root.render(
-    <React.StrictMode>
-      {/* Chapter03 
-      <div className="p-5 border-solid rounded bg-gray-100">
-        <Chapter3Component />
-      </div>*/}
+root.render(
+  <React.StrictMode>
+    {/* Chapter03 
+    <div className="p-5 border-solid rounded bg-gray-100">
+      <Chapter3Component />
+    </div>*/}
 
-      {/* Chapter04 
-      <div className="p-5 border-solid rounded bg-gray-100">
-        <Chapter4Component />
-      </div>
-      */}
-        
-      {/* Chapter05 */}
-      <div className="p-5 border-solid rounded bg-gray-100">
-        <Chapter5Component />
-      </div>
-    </React.StrictMode>
-  );
-}, 1000)
+    {/* Chapter04 
+    <div className="p-5 border-solid rounded bg-gray-100">
+      <Chapter4Component />
+    </div>
+    */}
+      
+    {/* Chapter05 */}
+    <div className="p-5 border-solid rounded bg-gray-100">
+      <Chapter5Component />
+    </div>
+  </React.StrictMode>
+);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
