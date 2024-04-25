@@ -7,6 +7,9 @@ import HookCallbackRef from "./HookCallbackRef"
 import HookReducer from "./HookReducer"
 import HookReducerUp from "./HookReducerUp"
 import HookContext from "./HookContext"
+import RecoilCounter from "./RecoilCounter"
+import { RecoilRoot } from "recoil"
+import RecoilTodo from "./RecoilTodo"
 
 export default function Chapter7Component() {
   return (
@@ -50,11 +53,25 @@ export default function Chapter7Component() {
         <h2>7-3-4</h2>
         <HookReducerUp init={0} />
       </div>
-      */}
+ 
 
       <div className="chapter">
         <h2>7-4-3</h2>
         <HookContext />
+      </div>
+
+      <div className="chapter">
+        <h2>7-5-2</h2>
+        <RecoilRoot>
+          <RecoilCounter />
+        </RecoilRoot>
+      </div>
+      */}
+      <div className="chapter">
+        <h2>7-5-6</h2>
+        <RecoilRoot>
+          <RecoilTodo />
+        </RecoilRoot>
       </div>
     </>
   )
