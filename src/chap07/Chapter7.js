@@ -14,6 +14,7 @@ import HookMemo from "./HookMemo"
 import HookTransition from "./HookTransisiton"
 import HookDeferred from "./HookDeferred"
 import HookDeferredTransition from "./HookDeferredTransisiton"
+import HookCustom from "./HookCustom"
 
 export default function Chapter7Component() {
   return (
@@ -88,10 +89,14 @@ export default function Chapter7Component() {
         <h2>7-7-8</h2>
         <HookDeferred />
       </div>
-      */}
       <div className="chapter">
         <h2>7-7-10</h2>
         <HookDeferredTransition />
+      </div>
+      */}
+      <div className="chapter">
+        <h2>7-8-2</h2>
+        <HookCustom />
       </div>
     </>
   )
