@@ -6,6 +6,7 @@ import Chapter3Component from './chap03/Chapter3';
 import Chapter4Component from './chap04/Chapter4';
 import Chapter5Component from './chap05/Chapter5';
 import Chapter6Component from './chap06/Chapter6';
+import Chapter7Component from './chap07/Chapter7';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -27,9 +28,14 @@ root.render(
       <Chapter5Component />
     </div> */}
         
-    {/* Chapter06 */}
+    {/* Chapter06
     <div className="p-5 border-solid rounded bg-gray-100">
       <Chapter6Component />
+    </div> */}
+
+    {/* Chapter07 */}
+    <div className="p-5 border-solid rounded bg-gray-100">
+      <Chapter7Component />
     </div>
   </React.StrictMode>
 );
