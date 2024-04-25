@@ -10,6 +10,7 @@ import HookContext from "./HookContext"
 import RecoilCounter from "./RecoilCounter"
 import { RecoilRoot } from "recoil"
 import RecoilTodo from "./RecoilTodo"
+import HookMemo from "./HookMemo"
 
 export default function Chapter7Component() {
   return (
@@ -66,12 +67,16 @@ export default function Chapter7Component() {
           <RecoilCounter />
         </RecoilRoot>
       </div>
-      */}
       <div className="chapter">
         <h2>7-5-6</h2>
         <RecoilRoot>
           <RecoilTodo />
         </RecoilRoot>
+      </div>
+      */}
+      <div className="chapter">
+        <h2>7-6-3</h2>
+        <HookMemo />
       </div>
     </>
   )
