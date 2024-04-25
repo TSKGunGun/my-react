@@ -4,6 +4,8 @@ import HookEffect from "./HookEffect"
 import HookRefNg from "./HookRefNg"
 import HookRefForward from "./HookRefForward"
 import HookCallbackRef from "./HookCallbackRef"
+import HookReducer from "./HookReducer"
+import HookReducerUp from "./HookReducerUp"
 
 export default function Chapter7Component() {
   return (
@@ -31,10 +33,21 @@ export default function Chapter7Component() {
         <h2>7-2-7</h2>
         <HookRefForward />
       </div>
-      */}
+      
       <div className="chapter">
        <h2>7-2-11</h2>
         <HookCallbackRef />
+      </div>
+      
+      <div className="chapter">
+        <h2>7-3-2</h2>
+        <HookReducer init={0} />
+      </div>
+      */}
+
+      <div className="chapter">
+        <h2>7-3-4</h2>
+        <HookReducerUp init={0} />
       </div>
     </>
   )
