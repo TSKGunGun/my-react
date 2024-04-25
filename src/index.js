@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import Chapter3Component from './chap03/Chapter3';
 import Chapter4Component from './chap04/Chapter4';
 import Chapter5Component from './chap05/Chapter5';
+import Chapter6Component from './chap06/Chapter6';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -21,9 +22,14 @@ root.render(
     </div>
     */}
       
-    {/* Chapter05 */}
+    {/* Chapter05 
     <div className="p-5 border-solid rounded bg-gray-100">
       <Chapter5Component />
+    </div> */}
+        
+    {/* Chapter06 */}
+    <div className="p-5 border-solid rounded bg-gray-100">
+      <Chapter6Component />
     </div>
   </React.StrictMode>
 );
