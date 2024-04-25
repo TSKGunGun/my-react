@@ -9,6 +9,7 @@ import StyledDynamic from "./StyledDynamic"
 import StyledComp from "./StyledComp"
 import { MyButton, MyStyledButton } from "./StyledComp2"
 import StyledCommon from "./StyledCommon"
+import PortalBasic from "./PotalBasic"
 
 export default function Chapter5Component() {
   return (
@@ -61,6 +62,11 @@ export default function Chapter5Component() {
       <div className="chapter">
         <h2>5-2-19</h2>
         <StyledCommon />       
+      </div>
+      <div className="chapter">
+        <h2>5-3-3</h2>
+        <div id="dialog"></div>
+        <PortalBasic />
       </div>
     </>
   )
