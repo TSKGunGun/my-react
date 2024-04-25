@@ -6,6 +6,7 @@ import HookRefForward from "./HookRefForward"
 import HookCallbackRef from "./HookCallbackRef"
 import HookReducer from "./HookReducer"
 import HookReducerUp from "./HookReducerUp"
+import HookContext from "./HookContext"
 
 export default function Chapter7Component() {
   return (
@@ -43,11 +44,17 @@ export default function Chapter7Component() {
         <h2>7-3-2</h2>
         <HookReducer init={0} />
       </div>
-      */}
+      
 
       <div className="chapter">
         <h2>7-3-4</h2>
         <HookReducerUp init={0} />
+      </div>
+      */}
+
+      <div className="chapter">
+        <h2>7-4-3</h2>
+        <HookContext />
       </div>
     </>
   )
